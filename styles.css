@@ -2343,7 +2343,7 @@ main {
   height: 5vh;
   border: 1px solid black;
   border-radius: 50%;
-  background-color: black; /* #00ff00 */
+  background-color: #00ff00;
   position: relative;
   top: 35vh;
   margin: 0 auto;

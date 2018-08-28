@@ -15,6 +15,7 @@ function movement() {
 
 	setInterval (
     	function () {
+    					predator.style.transition = 'all 0.5s linear';
     					predator.style.transform += arr[Math.floor(Math.random() * arr.length)];
     				}, 
     				10
