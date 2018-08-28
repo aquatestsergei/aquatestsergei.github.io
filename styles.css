@@ -2345,8 +2345,8 @@ main {
   border-radius: 50%;
   background-color: #00ff00;
   position: relative;
-  top: 50vh;
-  left: 50vh;
+  top: 35vh;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
     .wall, footer {

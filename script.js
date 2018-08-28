@@ -7,10 +7,10 @@ const /*fish = document.getElementById('fish'),*/
 	
 function movement() {
 
-	let moveUp = 'translateY(-1px)',
-		moveRight = 'translateX(1px)',
-		moveDown = 'translateY(1px)',
-		moveLeft = 'translateX(-1px)';
+	let moveUp = 'translateY(-10px)',
+		moveRight = 'translateX(10px)',
+		moveDown = 'translateY(10px)',
+		moveLeft = 'translateX(-10px)';
 	let arr = [moveUp, moveRight, moveDown, moveLeft];
 
 	setInterval (
