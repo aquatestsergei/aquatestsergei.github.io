@@ -2,7 +2,7 @@ window.onload = function() {
      movement ();
 }
 
-const  /*fish = document.getElementById('fish'),*/
+const  fish = document.getElementById('fish'),
 	predator = document.getElementById('predator');
 	
 function movement() {
@@ -15,7 +15,9 @@ function movement() {
 
 	setInterval (
     	function () {
+    					fish.style.transition = 'all 0.5s linear';
     					predator.style.transition = 'all 0.5s linear';
+    					fish.style.transform += arr[Math.floor(Math.random() * arr.length)];
     					predator.style.transform += arr[Math.floor(Math.random() * arr.length)];
     				}, 
     				10
