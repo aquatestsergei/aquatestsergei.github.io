@@ -2,7 +2,7 @@ window.onload = function() {
      movement ();
 }
 
-const /*fish = document.getElementById('fish'),*/
+const  /*fish = document.getElementById('fish'),*/
 	predator = document.getElementById('predator');
 	
 function movement() {
